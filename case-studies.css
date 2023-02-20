@@ -1,0 +1,23 @@
+.project-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.project-text-wrapper {
+    text-align: center;
+}
+
+.project-title {
+    font-size: 34px;
+    font-family: 'Days One', sans-serif;
+    color: #f18a99;
+}
+
+.project-description {
+    font-family: 'Poppins', sans-serif;
+}

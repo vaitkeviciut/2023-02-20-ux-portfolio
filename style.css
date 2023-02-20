@@ -1,0 +1,147 @@
+body {
+    margin: 0;
+}
+.header {
+    background-color: #485063;
+}
+
+.header-content-wrapper {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-list {
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    gap: 50px;
+}
+
+.menu-item-link {
+    text-decoration: none;
+    font-family: 'Days One', sans-serif;
+    color: #F0EFEF;
+    font-size: 20px;
+}
+
+.menu-item-link:hover {
+    color: #f18a99;
+}
+
+
+
+.hero-box-wrapper {
+    background-color: #485063;
+}
+
+.hero-box-content-wrapper {
+    font-family: 'Poppins', sans-serif;
+    color: #F0EFEF;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.hero-box-content-wrapper {
+    padding: 270px 20px 350px;
+}
+
+.hero-box-main-title {
+    font-size: 64px;
+    font-family: 'Days One', sans-serif;
+    color: #f18a99;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(28);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+.hero-box-main-description {
+    font-size: 20px;
+    width: 570px;
+}
+
+
+.dev, .des {
+    color: #f18a99;
+    font-weight: 700;
+}
+
+
+
+footer {
+    background-color: #485063;
+    font-family: 'Poppins', sans-serif;
+    color: #F0EFEF;
+    
+}
+
+.footer-content-wrapper {
+    padding: 70px 20px;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.text-wrapper {
+    text-align: center;
+}
+
+.footer-title {
+    font-size: 34px;
+    font-family: 'Days One', sans-serif;
+    color: #f18a99;
+}
+
+.contacts-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.contact-item {
+    color: #F0EFEF;
+}
+
+.contact-item-link {
+    text-decoration: none;
+    color: #F0EFEF;
+}
+
+.contact-item-link:hover {
+    color: #f18a99;
+}
+
+.social-media-wrapper {
+    display: flex;
+    gap: 50px;
+}
+
+.social-media-wrapper a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #F0EFEF;
+}
+
+.social-media-wrapper a:hover {
+    color: #f18a99;
+}

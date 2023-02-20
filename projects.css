@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.project-content-container {
+    background-color: #F0EFEF;
+}
+
+.project-content-wrapper {
+    font-family: 'Poppins', sans-serif;
+    padding: 70px 20px 120px;
+    max-width: 1250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-content-title {
+    font-size: 35px;
+    font-family: 'Days One', sans-serif;
+    color: #f18a99;
+}
+
+.project-content-description {
+    width: 800px;
+}
+
+.projects-wrapper {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+    justify-content: center;
+}
+
+img {
+    border-radius: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+img:hover {
+    border: solid 5px #f18a99;
+}
+
+.project-title {
+    font-size: 30px;
+    font-family: 'Days One', sans-serif;
+    color: #f4b042;
+}
